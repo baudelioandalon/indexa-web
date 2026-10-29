@@ -29,7 +29,7 @@ Distingue una solicitud enviada de una página indexada. Conserva privados los p
 - `agents/openai.yaml`: nombre visible y ejemplo de invocación.
 - `references/seo-workflow.md`: documentación oficial y formato de evidencia.
 
-Puedes descargar el paquete de tres archivos desde la sección [Releases](../../releases). La skill es un flujo de trabajo para un agente; no es un programa independiente ni garantiza indexación o posiciones en buscadores.
+Puedes descargar el paquete de tres archivos desde la sección [Releases](https://github.com/baudelioandalon/indexa-web/releases). La skill es un flujo de trabajo para un agente; no es un programa independiente ni garantiza indexación o posiciones en buscadores.
 
 ## Procedencia
 
