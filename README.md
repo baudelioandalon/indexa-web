@@ -2,6 +2,8 @@
 
 Skill en español para usar un agente llamado **Indexa** que prepare y tramite el alta de una web en Google y Bing.
 
+La versión 2 añade una revisión opcional de `llms.txt`: una guía Markdown curada para herramientas que decidan leerla. No es una garantía de aparición en asistentes de IA ni cambia la indexación o el ranking de Google.
+
 ## Uso
 
 En un agente compatible con skills, instala la carpeta `indexa-web` en su directorio de skills. En Codex, puedes invocarla así:
@@ -16,12 +18,13 @@ El dominio del ejemplo se sustituye por el sitio que administras. La skill tambi
 
 1. Verificar la propiedad en Google Search Console.
 2. Validar y enviar el sitemap del sitio.
-3. Inspeccionar las páginas públicas importantes y solicitar indexación.
-4. Importar el sitio y su sitemap en Bing Webmaster Tools, o utilizar verificación manual.
+3. Cuando aporte valor y esté autorizado, revisar o preparar un `llms.txt` de contenido público; no es un reemplazo de los pasos de indexación.
+4. Inspeccionar las páginas públicas importantes y solicitar indexación.
+5. Importar el sitio y su sitemap en Bing Webmaster Tools, o utilizar verificación manual.
 
 Necesita acceso autorizado al sitio y a las cuentas correspondientes. Si una herramienta o permiso falta, informa del bloqueo y prepara los pasos independientes. No incluye contraseñas, claves API ni automatismos de inicio de sesión.
 
-Distingue una solicitud enviada de una página indexada. Conserva privados los portales y las páginas protegidas; no elimina restricciones de una demostración por su cuenta. La vinculación de Bing con Search Console se revisa antes de conceder acceso persistente.
+Distingue una solicitud enviada de una página indexada. Conserva privados los portales y las páginas protegidas; no elimina restricciones de una demostración por su cuenta. `llms.txt` sólo puede incluir una selección curada de URLs públicas verificadas y nunca debe copiar automáticamente el sitemap ni listar áreas privadas. La vinculación de Bing con Search Console se revisa antes de conceder acceso persistente.
 
 ## Archivos
 

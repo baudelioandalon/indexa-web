@@ -2,6 +2,13 @@
 
 Origen del flujo: [reel de Luis Álvarez Web](https://www.facebook.com/reel/2098623907436804), descripción completa consultada el 29 de octubre de 2026. Sus cuatro acciones son verificar Search Console, enviar sitemap, solicitar indexación de páginas importantes e importar en Bing. La implementación usa documentación oficial vigente; el reel no garantiza indexación ni un plazo.
 
+Referencia complementaria: [reel de Jesús Montero](https://www.facebook.com/reel/1652215109665209), consultado el 29 de octubre de 2026, propone añadir `llms.txt`. Se trata como una mejora opcional y no como un quinto requisito de indexación.
+
+## Contenido para agentes (opcional)
+
+- [Propuesta `llms.txt`](https://llmstxt.org/): formato Markdown para un resumen y una selección de enlaces de un sitio. Es una propuesta; publica sólo contenido que ya sea público y comprobable, y mantenlo separado de cualquier área autenticada.
+- [Guía de Google para funciones generativas](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?hl=es): Google Search no usa `llms.txt` ni otro marcado especial para la visibilidad o ranking en Search, incluidas sus funciones generativas. No atribuyas resultados de Google a ese archivo.
+
 ## Search Console y propiedad
 
 - [Añadir una propiedad](https://support.google.com/webmasters/answer/34592?hl=es): una propiedad de dominio cubre protocolos/subdominios; una de prefijo de URL se limita al prefijo. No tramites automáticamente hosts administrativos sólo porque existe una propiedad de dominio.
