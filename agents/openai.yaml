@@ -1,0 +1,4 @@
+interface:
+  display_name: "Indexa"
+  short_description: "Prepara tu web para Google y Bing con evidencia"
+  default_prompt: "Usa $indexa-web como agente Indexa para registrar este sitio en Google Search Console y Bing, revisar su sitemap y solicitar la indexación de sus páginas públicas."
